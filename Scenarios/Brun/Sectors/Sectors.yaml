@@ -1,0 +1,695 @@
+# -------
+# Created with eWSSC v1.7.0
+# Website: https://empyrion-homeworld.net/tools/ewssc
+# -------
+Sectors:
+  - Coordinates:
+      - 0
+      - 0
+      - 0
+    Color: '1, 1, 0'
+    SectorMapType: None
+    Playfields:
+      - - '0,0,0'
+        - Sun
+        - Sun
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 0
+      - 0
+      - -30
+    Color: '0.3, 0.3, 0.3'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Void
+        - Void
+        - ''
+      - - '0,0,0'
+        - Black Hole
+        - Black Hole
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 2
+      - 3
+      - -165
+    Color: '1, 1, 1'
+    SectorMapType: AsteroidField
+    Playfields:
+      - - '0,0,0'
+        - Golden Phoenix Asteroid Field
+        - Golden Phoenix Asteroid Field
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 171
+      - -82
+      - -45
+    Color: '1, 1, 1'
+    SectorMapType: Station
+    Playfields:
+      - - '0,0,0'
+        - Galactic Trading Station
+        - Galactic Trading Station
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 129
+      - -19
+      - 118
+    Color: '1, 1, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Ferrda
+        - Ferrda
+        - ''
+      - - '0,0,0'
+        - Ferrda Orbit
+        - Ferrda Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -222
+      - 26
+      - -17
+    Color: '1, 1, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Merrex
+        - Merrex
+        - ''
+      - - '0,0,0'
+        - Merrex Orbit
+        - Merrex Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 37
+      - 9
+      - 260
+    Color: '0, 1, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Atlon
+        - Atlon
+        - 'Defender:0'
+      - - '7500,3250,-7500'
+        - Atlon Moon
+        - Atlon Moon
+      - - '0,0,-15000'
+        - Mato
+        - Mato
+        - 'Defender:0'
+      - - '0,0,0'
+        - Atlon Galaxy
+        - Atlon Galaxy
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -118
+      - -27
+      - 344
+    Color: '0, 1, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Bondoin
+        - Bondoin
+        - ''
+      - - '-7500,0,7500'
+        - Bondoin Moon
+        - Bondoin Moon
+      - - '0,0,0'
+        - Bondoin Orbit
+        - Bondoin Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 50
+      - -56
+      - 264
+    Color: '0, 1, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Celendo
+        - Celendo
+        - ''
+      - - '7500,0,7500'
+        - Celendo Moon
+        - Celendo Moon
+      - - '0,0,0'
+        - Celendo Orbit
+        - Celendo Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -165
+      - 6
+      - 194
+    Color: '0, 1, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Kantir
+        - Kantir
+        - ''
+      - - '-7500,7500,0'
+        - Kantir Moon
+        - Kantir Moon
+      - - '0,0,0'
+        - Kantir Orbit
+        - Kantir Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 133
+      - -9
+      - 260
+    Color: '0, 1, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Haresh
+        - Haresh
+        - ''
+      - - '7500,7500,0'
+        - Haresh Moon
+        - Haresh Moon
+      - - '0,0,0'
+        - Haresh Orbit
+        - Haresh Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -114
+      - 2
+      - 104
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Alpol
+        - Alpol
+        - ''
+      - - '0,0,0'
+        - Alpol Orbit
+        - Alpol Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 19
+      - -42
+      - 76
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Meratinu
+        - Meratinu
+        - ''
+      - - '0,0,0'
+        - Meratinu Orbit
+        - Meratinu Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 258
+      - -35
+      - 76
+    Color: '0, 0, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Taldor
+        - Taldor
+        - 'Trader:2'
+      - - '-7500,7500,7500'
+        - Trader Outpost
+        - Trader Outpost
+        - 'Trader:2'
+      - - '0,0,0'
+        - Taldor Galaxy
+        - Taldor Galaxy
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 312
+      - -72
+      - 74
+    Color: '0, 0, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Meldo
+        - Meldo
+        - ''
+      - - '7500,0,7500'
+        - Meldo Moon
+        - Meldo Moon
+      - - '0,0,0'
+        - Meldo Orbit
+        - Meldo Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 365
+      - -124
+      - -31
+    Color: '0, 0, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Valea
+        - Valea
+        - ''
+      - - '7500,0,-7500'
+        - Valea Moon
+        - Valea Moon
+      - - '0,0,0'
+        - Valea Orbit
+        - Valea Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 298
+      - -55
+      - 158
+    Color: '0, 0, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Juno
+        - Juno
+        - ''
+      - - '0,7500,7500'
+        - Juno Moon
+        - Juno Moon
+      - - '0,0,0'
+        - Juno Orbit
+        - Juno Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 291
+      - -94
+      - -183
+    Color: '0, 0, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Sect
+        - Sect
+        - ''
+      - - '0,7500,-7500'
+        - Sect Moon
+        - Sect Moon
+      - - '0,0,0'
+        - Sect Orbit
+        - Sect Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 166
+      - -34
+      - 34
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Omkar
+        - Omkar
+        - ''
+      - - '0,0,0'
+        - Omkar Orbit
+        - Omkar Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 137
+      - -41
+      - -94
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Tull
+        - Tull
+        - ''
+      - - '0,0,0'
+        - Tull Orbit
+        - Tull Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -147
+      - -38
+      - -288
+    Color: '1, 0, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Itaka
+        - Itaka
+        - 'Invader:1'
+      - - '0,-3250,15000'
+        - Korro
+        - Korro
+        - 'Invader:1'
+      - - '-7500,3250,7500'
+        - Korro Moon
+        - Korro Moon
+      - - '0,0,0'
+        - Itaka Galaxy
+        - Itaka Galaxy
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -203
+      - -20
+      - -278
+    Color: '1, 0, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Rasmaru
+        - Rasmaru
+        - ''
+      - - '-7500,0,-7500'
+        - Rasmaru Moon
+        - Rasmaru Moon
+      - - '0,0,0'
+        - Rasmaru Orbit
+        - Rasmaru Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 99
+      - 10
+      - -277
+    Color: '1, 0, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Goronor
+        - Goronor
+        - ''
+      - - '7500,0,-7500'
+        - Goronor Moon
+        - Goronor Moon
+      - - '0,0,0'
+        - Goronor Orbit
+        - Goronor Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -135
+      - 7
+      - -219
+    Color: '1, 0, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Torna
+        - Torna
+        - ''
+      - - '-7500,-7500,0'
+        - Torna Moon
+        - Torna Moon
+      - - '0,0,0'
+        - Torna Orbit
+        - Torna Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -3
+      - -104
+      - -342
+    Color: '1, 0, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Suri
+        - Suri
+        - ''
+      - - '-2500,-12500,1000'
+        - Suri Moon
+        - Suri Moon
+      - - '0,0,0'
+        - Suri Orbit
+        - Suri Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -117
+      - 26
+      - -135
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Vorak
+        - Vorak
+        - ''
+      - - '0,0,0'
+        - Vorak Orbit
+        - Vorak Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 80
+      - -46
+      - -165
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Lumi
+        - Lumi
+        - ''
+      - - '0,0,0'
+        - Lumi Orbit
+        - Lumi Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -290
+      - 64
+      - -111
+    Color: '1, 0.5, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Merdar
+        - Merdar
+        - ''
+      - - '0,0,0'
+        - Merdar Galaxy
+        - Merdar Galaxy
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -291
+      - 56
+      - 13
+    Color: '1, 0.5, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Plys
+        - Plys
+        - 'Mercenary:3'
+      - - '-7500,0,7500'
+        - Plys Moon
+        - Plys Moon
+        - 'Mercenary:3'
+      - - '0,0,0'
+        - Plys Orbit
+        - Plys Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -269
+      - 58
+      - -218
+    Color: '1, 0.5, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Eris
+        - Eris
+        - ''
+      - - '-7500,0,-7500'
+        - Eris Moon
+        - Eris Moon
+      - - '0,0,0'
+        - Eris Orbit
+        - Eris Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -327
+      - 15
+      - 52
+    Color: '1, 0.5, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Ursa
+        - Ursa
+        - ''
+      - - '0,7500,7500'
+        - Ursa Moon
+        - Ursa Moon
+      - - '0,0,0'
+        - Ursa Orbit
+        - Ursa Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -371
+      - 77
+      - -10
+    Color: '1, 0.5, 0'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Nex
+        - Nex
+        - ''
+      - - '0,-7500,-7500'
+        - Nex Moon
+        - Nex Moon
+      - - '0,0,0'
+        - Nex Orbit
+        - Nex Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -175
+      - -30
+      - 19
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Amelon
+        - Amelon
+        - ''
+      - - '0,0,0'
+        - Amelon Orbit
+        - Amelon Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -188
+      - 12
+      - -106
+    Color: '0.7, 0.7, 0.1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Darsh
+        - Darsh
+        - ''
+      - - '0,0,0'
+        - Darsh Orbit
+        - Darsh Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -23
+      - 102
+      - -30
+    Color: '1, 1, 1'
+    SectorMapType: Planet
+    Playfields:
+      - - '0,0,0'
+        - Event Planet
+        - Event Planet
+        - ''
+      - - '0,0,0'
+        - Event Orbit
+        - Event Orbit
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - 787
+      - 0
+      - 794
+    Color: '1, 1, 1'
+    SectorMapType: Instance
+    Playfields:
+      - - '0,0,0'
+        - Erestrum Freighter Mission
+        - + Erestrum Freighter Mission
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -678
+      - 0
+      - -803
+    Color: '1, 1, 1'
+    SectorMapType: Instance
+    Playfields:
+      - - '0,0,0'
+        - Sathium Freighter Mission
+        - + Sathium Freighter Mission
+        - ''
+    Allow: []
+    Deny: []
+  - Coordinates:
+      - -679
+      - 0
+      - 793
+    Color: '1, 1, 1'
+    SectorMapType: Instance
+    Playfields:
+      - - '0,0,0'
+        - Zascosium Freighter Mission
+        - + Zascosium Freighter Mission
+        - ''
+    Allow: []
+    Deny: []
+SolarSystems: []

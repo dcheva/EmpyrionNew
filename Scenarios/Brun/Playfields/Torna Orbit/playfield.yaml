@@ -1,0 +1,1194 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.63.6.2038, Playfield Version: 10.5.0 [2610] (Alpha 10.5)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: -162
+PlayfieldLevel: 10
+IsOrbitPlayfield: True
+Music: DistantWorlds
+Description: >-
+   The Middle PvPvE Ring Galaxy.
+
+   The Orbit is PvE but the Moon is PvP!
+
+
+   Feel the little risk but big reward on the PvP Moon.
+PlanetType: Space
+PlayfieldType: Space
+AtmosphereEnabled: False
+Difficulty: 2
+SunFlare: EnvironmentalEffects/SunFlareBlue
+Stars: SkyboxStarsBlack
+Nebula: PrefabNebulaBlue
+Build: 2636
+Radiation: 18.539151
+PvP: False
+UseFixed: True
+AllowBA: True
+AllowCV: True
+AllowSV: True
+AllowHV: True
+AllowBlueprintBA: True
+AllowBlueprintCV: True
+AllowBlueprintSV: True
+AllowBlueprintHV: True
+POIs:
+   Fixed:
+   -  Type: AsteroidFieldRingOld
+      Name: Asteroid Field
+      Pos: [0, 0, 0]
+      Rot: [0, 0, 15]
+   -  Type: BA_Alien
+      Prefab: TSO_Variant5
+      Mode: Survival
+      Name: Trading Station
+      Pos: [-1153.504, -8393.952, 192.3786]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: Music
+         Value: NebularClouds
+      -  Key: MapDistance
+         Value: 2500
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: BAO_DerelictMiningShip
+      Mode: Survival
+      Name: Derelict Ship
+      Pos: [4048.181, -4555.978, 1872.457]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: EvilWhispering
+   -  Type: BA_Alien
+      Prefab: BAO_DestroyedOrbitalDefence
+      Mode: Survival
+      Name: Control Station
+      Pos: [-5749.134, 1343.301, 605.0624]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: EvilWhispering
+   -  Type: BA_Alien
+      Prefab: BAO_Minefield
+      Mode: Survival
+      Name: Minefield
+      Pos: [-5911.917, 1193.809, 765.3212]
+      Rot: [37, 147, 59]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: SV_Player
+      Prefab: SV_Destroyed_withWarp
+      Mode: Survival
+      Name: Destroyed Small Vessel
+      Pos: [-5818.917, 1268.003, 649.8357]
+      Rot: [265, 342, 348]
+      Faction: None
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: CV_Alien
+      Prefab: CV_Destroyed4
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-5957.624, 1554.107, 742.981]
+      Rot: [306, 231, 49]
+      Faction: None
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: CV_Alien
+      Prefab: CV_Destroyed2
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-5708.523, 1310.555, 751.0195]
+      Rot: [29, 187, 112]
+      Faction: None
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: CV_Alien
+      Prefab: CV_Destroyed5
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-5671.724, 1496.336, 618.1754]
+      Rot: [53, 200, 72]
+      Faction: None
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: CV_Alien
+      Prefab: CV_DestroyedRear
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-5962.428, 1063.511, 565.8235]
+      Rot: [255, 218, 286]
+      Faction: None
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: BA_Alien
+      Prefab: BAO_PlanetRemnant
+      Mode: Survival
+      Name: Planetary Remnant
+      Pos: [-4539.73, 1673.234, -3330.384]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: DarkSoundscape
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PiratesSlaveMarket
+      Mode: Survival
+      Name: Asteroid Station
+      Pos: [4371.721, 2790.867, -2807.847]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: DarkSoundscape3
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAsteroidMining
+      Mode: Survival
+      Name: Mining Facility
+      Pos: [-5827.082, 5690.208, 4662.4]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAsteroidMining
+      Mode: Survival
+      Name: Mining Facility
+      Pos: [-7776.053, -4363.473, -3659.768]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Player
+      Prefab: BAO_Ramparts
+      Mode: Creative
+      Name: Outpost Akua Orbit
+      Pos: [65, -2000, -6800]
+      Rot: [0, 75, 0]
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: BA_Player
+      Prefab: BA_EmptyPlane
+      Mode: Creative
+      Name: Platform
+      Pos: [65, -2000, -6800]
+      Rot: [0, 75, 0]
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+   -  Type: SV_Player
+      Prefab: SV_Viper
+      Mode: Creative
+      Name: Fighter MKII
+      Pos: [56.6, -1961.3, -6805.5]
+      Rot: [0, -115, 0]
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: SV_Player
+      Prefab: SV_Viper
+      Mode: Creative
+      Name: Fighter MKII
+      Pos: [69, -1997, -6799]
+      Rot: [0, -69, 0]
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAlloySynthesis
+      Mode: Survival
+      Name: Alloy Synthesis Factory
+      Pos: [7343.545, -3860.675, 5276.272]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAlloySynthesis
+      Mode: Survival
+      Name: Alloy Synthesis Factory
+      Pos: [-4363.249, 5433.576, 5874.571]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [7805.766, 2126.05, 6044.137]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Promethium
+      Prefab: AsteroidVoxel02Promethium
+      Name: Promethium Asteroid
+      Pos: [6174.05, 1684.25, 6018.185]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [5877.343, 1834.25, 7364.589]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos: [5250.476, 1214.25, 7949.67]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [3742.094, 844.25, 7607.038]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [2765.04, 1174.25, 8200.795]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [1133.681, 184.25, 8333.5]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [550.083, -25.75, 9552.942]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Cobalt
+      Prefab: AsteroidVoxel01Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-535.954, -435.75, 8584.469]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Silicon
+      Prefab: AsteroidVoxel02Silicon
+      Name: Silicon Asteroid
+      Pos: [-1817.287, -605.75, 7724.914]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Silicon
+      Prefab: AsteroidVoxel01Silicon
+      Name: Silicon Asteroid
+      Pos: [-2834.504, -935.75, 9192.889]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [-4545.318, -1015.75, 7959.78]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos: [-6016.571, -1325.75, 6631.669]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [-7106.036, -2045.75, 5775.004]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [-6491.065, -1925.75, 3993.24]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Copper
+      Prefab: AsteroidVoxel01Copper
+      Name: Copper Asteroid
+      Pos: [-7885.833, -2035.75, 3924.811]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [-9113.74, -1975.75, 3460.594]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Copper
+      Prefab: AsteroidVoxel03Copper
+      Name: Copper Asteroid
+      Pos: [-7983.223, -2285.75, 2567.756]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos: [-8685.484, -1955.75, 1634.22]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [-9230.277, -2536.35, 822.806]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [-8944.488, -2226.35, -619.928]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Neodymium
+      Prefab: AsteroidVoxel01Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-8219.443, -1866.35, -2599.623]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Neodymium
+      Prefab: AsteroidVoxel02Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-6740.675, -1866.35, -3515.806]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Neodymium
+      Prefab: AsteroidVoxel03Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-7336.5, -2076.35, -4865.08]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos: [-7525.397, -1976.35, -6315.2]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Cobalt
+      Prefab: AsteroidVoxel02Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-6321.536, -1916.05, -6648.511]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Cobalt
+      Prefab: AsteroidVoxel03Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-4986.413, -1359.75, -6759.491]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [7861, 2052, 3599]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Silicon
+      Prefab: AsteroidVoxel01Silicon
+      Name: Silicon Asteroid
+      Pos: [-4993.391, -1039.75, -7705.97]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Silicon
+      Prefab: AsteroidVoxel02Silicon
+      Name: Silicon Asteroid
+      Pos: [-4044.389, -1289.75, -8193.572]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-3127.024, -991.25, -7503.903]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Cobalt
+      Prefab: AsteroidVoxel01Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-2695.104, -619.95, -8329.715]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Copper
+      Prefab: AsteroidVoxel02Copper
+      Name: Copper Asteroid
+      Pos: [-2027.562, -719.95, -8926.394]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Copper
+      Prefab: AsteroidVoxel03Copper
+      Name: Copper Asteroid
+      Pos: [-1051.276, -69.95, -9102.144]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [-522, -217, 9175]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-425.409, -259.95, -8131.464]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [813.721, -9.05, -8523.438]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [3320, 5269, -8323]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [3623, 5824, -8119]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [2812, 5504, -7356]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [4005, 952, 7519]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [8465, 2562, 1886]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [-4384, -1407, 7236]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [-7638, -2177, 4117]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [3744, 5624, -8914]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [2926, 5554, -9018]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Neodymium
+      Prefab: AsteroidVoxel01Neodymium
+      Name: Neodymium Asteroid
+      Pos: [2698, 5444, -8403]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidField
+      Name: Asteroid Field
+      Pos: [4064, 4875, -6635]
+      Rot: [0, 0, 0]
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [4445, 4757, -8012]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [5253, 5157, -10475]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [3699, 5177, -10425]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [2981, 5117, -9543]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [1757, 5187, -8942]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [1995, 4937, -7897]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [2743.241, 4965.15, -7279.049]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [3804.408, 4674.251, -8203.021]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [3624.548, 4674.251, -8644.671]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [3446.671, 4775.15, -7857.936]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [3155.342, 4674.251, -8691.783]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [3084.454, 4743.951, -8216.628]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [3294.504, 4553.951, -8017.93]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [3216.153, 4441.651, -8366.939]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: The Only One
+      Pos: [3567.144, 4443.951, -8256.455]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_OrbitalSpire
+      Mode: Survival
+      Name: Orbital Iron Spire
+      Pos: [3376.927, 4570.359, -8293.486]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+      -  Key: Music
+         Value: EvilWhispering
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Iron Spire Satellite
+      Pos: [3226.422, 4666.446, -8177.489]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Iron Spire Satellite
+      Pos: [3555.495, 4586.146, -8033.586]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Iron Spire Satellite
+      Pos: [3602.179, 4649.746, -8372.672]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Iron Spire Satellite
+      Pos: [3373.488, 4689.746, -8529.466]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Iron Spire Satellite
+      Pos: [3211.308, 4596.048, -8347.701]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Neodymium
+      Prefab: AsteroidVoxel03Neodymium
+      Name: Neodymium Asteroid
+      Pos: [7563, 2002, 1097]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [9321, 2502, 61]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [8519, 2220, -1491]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [8799, 2300, -2948]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [7366, 1910, -4057]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [6532, 1700, -6003]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [5905, 1599, -7613]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [4194, 958, -7754]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [2761, 708, -8319]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [1281, 498, -9578]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+DroneBaseSetup:
+   Fixed:
+   -  Name: MainDroneBase
+      Pos: [11961.61, 2904.454, -3552.888]
+      DroneOnDuty:
+      -  Name: SpaceDroneLaser
+         Pos: [2293.203, 554.1976, 13684.74]
+         Radius: 347
+      -  Name: SpaceDroneLaser
+         Pos: [210.3826, -2221.719, 12379]
+         Radius: 557
+      SpaceVessel:
+      -  Name: Freighter
+         Faction: Polaris
+         FixedMaxSpeed: 26
+         Mission: Freighter
+         Freighter:
+            DelayBetweenRespawn: 377
+            DelayBeforeSelfDestruction: 207
+            IsRespawnAfterDestruction: True
+            PathWayPoint:
+            - [7533, -403, 4588]
+            - [7058, 7786, -6062]
+            - [-3487, 9659, -8354]
+            - [-10240, -8344, 834]
+            - [-2589, 919, 10916]
+         Stock:
+         -  Name: SpaceDronePlasma
+            Amount: 3
+            Extra: 1
+      -  Name: OrbitalPatrolVessel
+         Faction: Zirax
+         FixedMaxSpeed: 35
+         Mission: SpacePatrol
+         RangePatrol:
+            Position3D: [5200.909, 7088.09, -3266.853]
+            Radius: 920
+         Immobile:
+            Position3D: [0, 0, 0]
+         Freighter:
+            IsRespawnAfterDestruction: True
+         Stock:
+         -  Name: SpaceDroneLaser
+            Amount: 4
+            Extra: 1
+      -  Name: BAO_XenuShipyard
+         Faction: Zirax
+         FixedMaxSpeed: 20
+         Mission: Immobile
+         Properties:
+         -  Key: RegenAfter
+            Value: 720
+         Immobile:
+            Position3D: [3088.488, -4725.057, -3107.937]
+         Stock:
+         -  Name: SpaceDronePlasma
+            Amount: 23
+            Extra: 1

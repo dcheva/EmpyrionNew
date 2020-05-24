@@ -1,0 +1,22 @@
+# Allow to override the default reputation for all Origin based factions to NPC factions
+{ Reputation Name: "Defender:0"
+  Zirax: 0
+  Talon: 19000
+  Polaris: 0
+}
+{ Reputation Name: "Invader:1"
+  Zirax: 19000
+  Talon: 0
+  Polaris: 0
+}
+{ Reputation Name: "Trader:2"
+  Zirax: 0
+  Talon: 0
+  Polaris: 19000
+}
+
+{ Reputation Name: "Mercenary:3"
+  Zirax: 15000
+  Talon: 15000
+  Polaris: 15000
+}

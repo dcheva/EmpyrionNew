@@ -1,0 +1,46 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.92.9.2540, Playfield Version: 11.5.0 [2744] (Alpha 11.5.0)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: -70
+PlayfieldLevel: 10
+Music: alien
+Description: Your job is to infiltrate that Freighter, steal all the Ores with a Drill to not detect any Cargo Box Security System and return to the Trader.
+PlanetType: Space
+PlayfieldType: Space
+AtmosphereEnabled: False
+Difficulty: 5
+SunFlare: EnvironmentalEffects/SunFlareRedSpace
+Stars: SkyboxStarsCyan
+Nebula: PrefabNebulaBlue2
+Build: 1642
+Radiation: 9.3300000000000001
+PvP: False
+UseFixed: True
+AllowBA: False
+AllowCV: False
+AllowSV: False
+AllowHV: False
+AllowBlueprintBA: False
+AllowBlueprintCV: False
+AllowBlueprintSV: False
+AllowBlueprintHV: False
+Instance:
+   Time: 10
+   MaxPlayers: 1
+   PortalOpen: 5
+   Cooldown: 3600
+   LockOnFaction: True
+POIs:
+   Fixed:
+   -  Type: BA_Alien
+      Prefab: IvDII M Zas Freighter
+      Mode: Survival
+      Name: Zascosium Freighter Mission
+      Pos: [0, 0, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      Properties:
+      -  Key: Music
+         Value: DistantWorlds
+DroneBaseSetup: {}
