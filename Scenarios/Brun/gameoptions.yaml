@@ -30,6 +30,10 @@ Options:
   DiffDronePresence: Normal
   DiffDroneBaseAttack: Medium
   DiffBpProdTime: Faster
+  EnableMaxBlockCount: false
+  DiffFoodConsumption: Low
+  DiffNumberOfDeposits: Plenty
+  DiffConstrCraftTime: Faster
 - ValidFor:
   - MP
   - Survival
