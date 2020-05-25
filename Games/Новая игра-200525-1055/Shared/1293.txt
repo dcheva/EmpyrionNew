@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Trader Outpost,1293,'White Dart',SV,[Private 1017]          ,151,46,-1217.817 116.8659 -169.2658,2.891361 276.6455 359.6806,True,False,False,5/25/2020 9:40:43 AM,708189,'dmytro.cheva',76561198412322587,5/25/2020 9:42:43 AM,710576,

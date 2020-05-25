@@ -1,0 +1,6 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Trader Outpost,1101,'???? (??)',BA,[Private 1017]          ,16,2,2016.5 93.5 1350.5,0 90 0,True,False,False,5/25/2020 1:15:18 AM,128547,'dmytro.cheva',76561198412322587,5/25/2020 1:19:42 AM,133833,
+Trader Outpost,1101,'База (БА)',BA,[Private 1017]          ,16,2,2016.5 93.5 1350.5,0 90 0,True,False,False,5/25/2020 1:15:18 AM,128547,'dmytro.cheva',76561198412322587,5/25/2020 1:43:55 AM,153534,
+Trader Outpost,1101,'База (БА)',BA,[NoFaction],10,1,2016.5 93.5 1350.5,0 90 0,False,False,False,5/25/2020 2:54:46 AM,235487,'dmytro.cheva',76561198412322587,5/25/2020 6:56:33 AM,525593,
+Trader Outpost,1101,'База (БА)',BA,[NoFaction],10,1,2016.5 93.5 1350.5,0 90 0,False,False,False,5/25/2020 2:54:46 AM,235487,'dmytro.cheva',76561198412322587,5/25/2020 7:55:18 AM,596055,
+Trader Outpost,1101,'База (БА)',BA,[NoFaction],10,1,2016.5 93.5 1350.5,0 90 0,False,False,False,5/25/2020 2:54:46 AM,235487,'dmytro.cheva',76561198412322587,5/25/2020 8:07:36 AM,596463,
