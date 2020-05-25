@@ -1,63 +1,7 @@
 Options:
-- ValidFor:
-  - SP
-  - Survival
-  DecayTime: 5
-  WipeTime: 720
-  ProtectTime: 24
-  ProtectDelay: 1800
-  MaxStructures: 1000
-  AntiGriefDistancePvE: 0
-  AntiGriefDistancePvP: 300
-  EnableVolumeWeight: false
-  AntiGriefOresDistance: 0
-  EnableCPUPoints: false
-  AutoMinerDepletion: true
-  AntiGriefOresZone: None
+- EnableMaxBlockCount: false
   GroundedStructureSpawn: false
-  FriendlyFireInPvP: true
-  TurretUndergroundCheck: true
-  OriginDefault: Defender
-  OriginAutoAlliance: false
-  PlayerSafeZoneHours: 0
-  DespawnEscapePod: true
-  RegeneratePOIs: true
-  DSLUnloadSecs: 30
-  DSLDistancePlanet: 1700
-  DSLDistanceSpace: 3500
-  DiffAttackStrength: Medium
-  DiffEnemySpawnRate: Normal
-  DiffDronePresence: Normal
-  DiffDroneBaseAttack: Medium
-  DiffBpProdTime: Faster
-- ValidFor:
-  - MP
-  - Survival
-  DecayTime: 5
-  WipeTime: 720
-  ProtectTime: 24
-  ProtectDelay: 1800
-  MaxStructures: 1000
-  AntiGriefDistancePvE: 0
-  AntiGriefDistancePvP: 300
-  EnableVolumeWeight: false
-  AntiGriefOresDistance: 50
-  EnableCPUPoints: false
-  AutoMinerDepletion: true
-  AntiGriefOresZone: All
-  GroundedStructureSpawn: false
-  FriendlyFireInPvP: true
-  TurretUndergroundCheck: true
-  OriginDefault: Defender
-  OriginAutoAlliance: false
-  PlayerSafeZoneHours: 0
-  DespawnEscapePod: true
-  RegeneratePOIs: true
-  DSLUnloadSecs: 30
-  DSLDistancePlanet: 1700
-  DSLDistanceSpace: 3500
-  DiffAttackStrength: Medium
-  DiffEnemySpawnRate: Normal
-  DiffDronePresence: Normal
-  DiffDroneBaseAttack: Medium
+  DiffFoodConsumption: Low
+  DiffNumberOfDeposits: Plenty
+  DiffConstrCraftTime: Faster
   DiffBpProdTime: Faster
