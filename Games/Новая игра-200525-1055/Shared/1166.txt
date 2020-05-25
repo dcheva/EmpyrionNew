@@ -2,3 +2,4 @@ playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touche
 Trader Outpost,1166,'???? (??)',BA,[Private 1017]          ,623,63,1229.5 8.5 701,0 270 0,True,True,False,5/25/2020 6:56:32 AM,525593,'dmytro.cheva',76561198412322587,5/25/2020 6:56:33 AM,525593,
 Trader Outpost,1166,'База (БА)',BA,[Private 1017]          ,629,65,1229.5 8.5 701,0 270 0,True,True,False,5/25/2020 7:55:18 AM,596055,'dmytro.cheva',76561198412322587,5/25/2020 7:55:18 AM,596055,
 Trader Outpost,1166,'База (БА)',BA,[Private 1017]          ,629,65,1229.5 8.5 701,0 270 0,True,True,False,5/25/2020 8:07:35 AM,596462,'dmytro.cheva',76561198412322587,5/25/2020 8:07:36 AM,596463,
+Trader Outpost,1166,'База (БА)',BA,[Private 1017]          ,645,68,1229.5 8.5 701,0 270 0,True,True,False,5/25/2020 10:19:52 AM,755122,'dmytro.cheva',76561198412322587,5/25/2020 10:28:55 AM,765982,
