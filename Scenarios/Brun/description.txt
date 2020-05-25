@@ -1,7 +1,9 @@
-      =// Brun Universe \\=
+                  .-=| Brun Universe |=-.
 
-4 Origins you can choose and play:
-* Trader (Polaris Ally) | Pentaxid Boost
-* Defender (Talon Ally) | Magnesium Boost
-* Invader (Zirax Ally) | Neodymium Boost
-* Mercenary (Neutral to all) | Gold Boost
+5 Origins you can choose and play/boost:
+
+* Brun Ñonciliator (All friendly)
+* Taldor Trader (Polaris Ally)  | Pentaxid
+* Atlon Defender (Talon Ally) | Magnesium
+* Itaka Invader (Zirax Ally)      | Prometium
+* Plys Mercenary (All Neutral)| Neodymium
