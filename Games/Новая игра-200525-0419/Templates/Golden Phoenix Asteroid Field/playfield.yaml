@@ -1,0 +1,1051 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.92.9.2540, Playfield Version: 11.5.0 [2744] (Alpha 11.5.0)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: 700
+PlayfieldLevel: 10
+Music: Adrift
+Description: >-
+   Hot and Gold
+
+
+   ! No Bases allowed to build or spawn here !
+PlanetType: Space
+PlayfieldType: Space
+AtmosphereEnabled: False
+Difficulty: 5
+LandClaimZone: Off
+SunFlare: EnvironmentalEffects/SunFlareRedSpace
+Stars: SkyboxStarsRed
+Nebula: PrefabNebulaRed
+Build: 1846
+Radiation: 3.7000000000000002
+PvP: True
+UseFixed: True
+AllowBA: False
+AllowCV: True
+AllowSV: True
+AllowHV: True
+AllowBlueprintBA: False
+AllowBlueprintCV: True
+AllowBlueprintSV: True
+AllowBlueprintHV: True
+POIs:
+   Fixed:
+   -  Type: AsteroidFieldRingOld
+      Name: Asteroid Field
+      Pos: [-2500, 0, 0]
+      Rot: [0, 0, -45]
+   -  Type: AsteroidFieldRingOld
+      Name: Asteroid Field
+      Pos: [2500, 0, 0]
+      Rot: [0, 0, 45]
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-3, -2835, -4200]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-104, -2722, -3507]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-515, -2132, -4352]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1161, -1372, -5537]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-2421, -222, -6060]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-3499, 967, -5925]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-4820, 2380, -4670]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-5976, 3200, -3665]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-6417, 4080, -2778]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-7180, 4600, -748]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-7202, 4480, 1054]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-6664, 3939, 2749]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-5145, 2509, 4086]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-4405, 1699, 5497]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-3227, 479, 6581]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-2077, -541, 5583]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-927, -1664, 5293]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-371, -2424, 3824]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [1116, -3814, 2439]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [1562, -4194, 712]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [1409, -4064, -977]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [1398, -3964, -2835]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [687, -3224, -4274]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [366, -2684, -5752]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [480, -2190, -4604]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [1216, -1400, -5903]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [1874, -620, -6067]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [2859, 280, -6321]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [3899, 1450, -5634]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [4764, 2300, -4213]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [5904, 3230, -3742]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [6755, 4260, -2374]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [6629, 4090, 200]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [6573, 3990, 2066]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [6475, 3680, 3556]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [5480, 2840, 4649]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [4112, 1660, 5449]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [3111, 530, 5694]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [2004, -420, 6073]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [1252, -1380, 4531]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [360, -2190, 4479]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-447, -2970, 4125]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1224, -3790, 3296]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-1744, -4250, 2060]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-1991, -4631, 659]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1912, -4511, -1284]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-1122, -3841, -2399]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-601, -3200, -3142]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-452, -2670, -4809]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [622, -2100, -5402]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-1645, -543, -44]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-2165, -213, 427]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-2635, 164, 168]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-3268, 594, -534]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-3907, 1134, -206]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-3307, 924, 1095]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-2871, 124, 902]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1698, -405, 334]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-1754, -815, -1067]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [1899, -765, -1584]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [1908, -325, 832]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [2420, 74, 1860]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [3146, 924, 843]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [3575, 1294, -226]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [3167, 804, -992]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [2833, 205, -1099]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [2304, -107, -306]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [2377, -246, 174]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [2769, -100, -17]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [2472, -370, 794]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SL
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [0, -50, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [0, -750, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [350, -500, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [-350, -500, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [0, -500, -350]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [0, -500, 350]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [-579, -3708, -1876]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [1053, -3508, -1021]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [-2766, 559, 6189]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [3540, 1450, -5232]
+      Rot: [6, -49, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [3348, 480, 5749]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [5975, 3870, 352]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [-5031, 2190, -4614]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: HWS C3 AS The Prism SS
+      Mode: Survival
+      Name: Station Anomaly
+      Pos: [-7513, 4490, -589]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 360
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAlloySynthesis
+      Mode: Survival
+      Name: Alloy Synthesis Factory
+      Pos: [0, -400, 0]
+      Rot: [0, 30, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAlloySynthesis
+      Mode: Survival
+      Name: Alloy Synthesis Factory
+      Pos: [0, -600, 0]
+      Rot: [0, 110, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PiratesSlaveMarket
+      Mode: Survival
+      Name: Asteroid Station
+      Pos: [200, -500, 0]
+      Rot: [0, 45, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: DarkSoundscape3
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PiratesSlaveMarket
+      Mode: Survival
+      Name: Asteroid Station
+      Pos: [-200, -500, 0]
+      Rot: [0, 0, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: DarkSoundscape3
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAsteroidMining
+      Mode: Survival
+      Name: Mining Facility
+      Pos: [0, -500, 200]
+      Rot: [0, 80, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: BA_Alien
+      Prefab: BAO_PolarisAsteroidMining
+      Mode: Survival
+      Name: Mining Facility
+      Pos: [0, -500, -200]
+      Rot: [0, 123, 0]
+      Faction: Polaris
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 720
+      -  Key: Music
+         Value: Vanguard
+      -  Key: MapDistance
+         Value: 2500
+   -  Type: AsteroidField
+      Name: Asteroid Field
+      Pos: [2500, 0, 0]
+      Rot: [0, 0, 45]
+   -  Type: AsteroidField
+      Name: Asteroid Field
+      Pos: [-2500, 0, 0]
+      Rot: [0, 0, -45]
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Phoenix
+      Pos: [0, -490, 0]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+DroneBaseSetup: {}
