@@ -1,0 +1,7 @@
+Options:
+- EnableMaxBlockCount: false
+  GroundedStructureSpawn: false
+  DiffFoodConsumption: Low
+  DiffNumberOfDeposits: Plenty
+  DiffConstrCraftTime: Faster
+  DiffBpProdTime: Faster
