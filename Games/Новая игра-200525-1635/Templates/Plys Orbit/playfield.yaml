@@ -1,0 +1,509 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.92.9.2540, Playfield Version: 11.5.0 [2744] (Alpha 11.5.0)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: -10
+Music: Orbiting
+Description: >-
+   The Inner PvE Ring Galaxy.
+
+
+   Start and plan your journey here.
+PlanetType: Space
+PlayfieldType: Space
+AtmosphereEnabled: False
+Difficulty: 5
+LandClaimZone: Device
+SunFlare: EnvironmentalEffects/SunFlareWhite4Space
+Stars: SkyboxStarsBlue
+Nebula: PrefabNebulaBlue
+Build: 1846
+Radiation: 5
+PvP: False
+UseFixed: True
+AllowBA: True
+AllowCV: True
+AllowSV: True
+AllowHV: True
+AllowBlueprintBA: True
+AllowBlueprintCV: True
+AllowBlueprintSV: True
+AllowBlueprintHV: True
+RestrictToOrigin: 3
+POIs:
+   Fixed:
+   -  Type: BA_Alien
+      Prefab: BAO_DerelictMiningShip
+      Mode: Survival
+      Name: Derelict Ship
+      Pos: [3377.763, 4653.841, -8292.416]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: Music
+         Value: EvilWhispering
+   -  Type: BA_Alien
+      Prefab: BAO_DestroyedOrbitalDefence
+      Mode: Survival
+      Name: Control Station
+      Pos: [-3554.729, 5184.311, -120.4976]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: Music
+         Value: EvilWhispering
+   -  Type: BA_Alien
+      Prefab: BAO_Minefield
+      Mode: Survival
+      Name: Minefield
+      Pos: [-3406.829, 5333.547, -6.589661]
+      Rot: [333, 354, 350]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: SV_Player
+      Prefab: SV_Destroyed_withWarp
+      Mode: Survival
+      Name: Destroyed Small Vessel
+      Pos: [-3366.543, 5113.846, 49.1773]
+      Rot: [126, 93, 180]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: CV_Alien
+      Prefab: BA_CrashedCV_2
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-3384.513, 5269.488, -318.9831]
+      Rot: [316, 179, 161]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: CV_Alien
+      Prefab: CV_Destroyed1
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-3460.573, 4937.213, -175.0636]
+      Rot: [93, 278, 193]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: CV_Alien
+      Prefab: BA_CrashedCV_3
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-3663.403, 5302.474, -48.36092]
+      Rot: [31, 245, 77]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: CV_Alien
+      Prefab: BA_CrashedCV_2
+      Mode: Survival
+      Name: Destroyed Vessel
+      Pos: [-3550.948, 5116.104, -21.83922]
+      Rot: [48, 138, 282]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [1332.681, -120.3, -5733.53]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidFieldRingOld
+      Name: Asteroid Field
+      Pos: [0, 0, 0]
+      Rot: [0, 0, 15]
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [-2069.737, -210.9, -5674.228]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [4386.191, 1100.4, 3130.71]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [-4807.297, -1275.101, 3020.544]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Cobalt
+      Prefab: AsteroidVoxel01Cobalt
+      Name: Cobalt Asteroid
+      Pos: [120.596, 239.7, -5347.88]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Cobalt
+      Prefab: AsteroidVoxel02Cobalt
+      Name: Cobalt Asteroid
+      Pos: [2080.231, 577.3, 5697.137]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Cobalt
+      Prefab: AsteroidVoxel03Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-5579, -1384.801, 878.45]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Silicon
+      Prefab: AsteroidVoxel01Silicon
+      Name: Silicon Asteroid
+      Pos: [2260.347, 315.1, -5462.302]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Silicon
+      Prefab: AsteroidVoxel02Silicon
+      Name: Silicon Asteroid
+      Pos: [177.247, -134.8, 6114.927]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [-6589.863, -1879.901, -1396.106]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Copper
+      Prefab: AsteroidVoxel01Copper
+      Name: Copper Asteroid
+      Pos: [3804.196, 855.4, -3411.271]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Copper
+      Prefab: AsteroidVoxel02Copper
+      Name: Copper Asteroid
+      Pos: [4613.414, 1191.65, 5006.477]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Copper
+      Prefab: AsteroidVoxel03Copper
+      Name: Copper Asteroid
+      Pos: [-4934.886, -1149.301, -2882.548]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos: [6686.688, 1836.4, -2047.245]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [-1782.604, -1055.1, 4735.817]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [-3171.557, -1249.301, -4117.648]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Neodymium
+      Prefab: AsteroidVoxel01Neodymium
+      Name: Neodymium Asteroid
+      Pos: [5902.281, 1335.8, 497.258]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Neodymium
+      Prefab: AsteroidVoxel02Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-3788.247, -1083.6, 5749.447]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Neodymium
+      Prefab: AsteroidVoxel03Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-2844.976, -939.801, -4600.229]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos: [-1980.153, -980.401, -5098.299]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Promethium
+      Prefab: AsteroidVoxel02Promethium
+      Name: Promethium Asteroid
+      Pos: [-3958.489, -1175.101, 3576.577]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [5378.583, 1461, 2053.835]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-4017.048, -969.301, -5008.037]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-4766.153, -1335.401, 4972.388]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [5595.993, 1406.4, -934.056]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos: [-5184.774, -1529.301, -3938.719]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Promethium
+      Prefab: AsteroidVoxel02Promethium
+      Name: Promethium Asteroid
+      Pos: [-2497.174, -583.6, 5428.696]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [5134.71, 1415.4, -2591.749]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-5702.268, -1699.901, -2157.856]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-1187.812, -375.1, 5712.48]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [3325.361, 1255.7, -5462.5]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Silicon
+      Prefab: AsteroidVoxel01Silicon
+      Name: Silicon Asteroid
+      Pos: [-4550.641, -1388.101, -304.663]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Copper
+      Prefab: AsteroidVoxel02Copper
+      Name: Copper Asteroid
+      Pos: [1511.359, 296.4, 6874.586]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Cobalt
+      Prefab: AsteroidVoxel03Cobalt
+      Name: Cobalt Asteroid
+      Pos: [1410.087, 315.1, -6544.169]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [-6429.267, -1664.801, 2163.303]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [2619.813, 939.5, 4160.14]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidField
+      Name: Asteroid Field
+      Pos: [3320, 5269, -8323]
+      Rot: [0, 0, 0]
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [3623, 5824, -8119]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [3744, 5624, -8914]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [2926, 5554, -9018]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [2698, 5444, -8403]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [2812, 5504, -7356]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [4064, 4875, -6635]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [4445, 4757, -8012]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [5253, 5157, -10475]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [3699, 5177, -10425]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel01Pentaxid
+      Prefab: AsteroidVoxel01Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [2981, 5117, -9543]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [1757, 5187, -8942]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel03Pentaxid
+      Prefab: AsteroidVoxel03Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [1995, 4937, -7897]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+DroneBaseSetup: {}

@@ -1,0 +1,1162 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.92.9.2540, Playfield Version: 11.5.0 [2744] (Alpha 11.5.0)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: -270
+PlayfieldLevel: 10
+Music: Hyperion
+Description: >-
+   The center of the universe. The place to fear or to love.
+
+
+   ! No Bases allowed to build or spawn here !
+PlanetType: Space
+PlayfieldType: Space
+Difficulty: 5
+LandClaimZone: Off
+SunFlare: EnvironmentalEffects/SunFlareBlue
+Stars: SkyboxStarsCyan
+Nebula: PrefabNebulaBluePinkPurple
+Build: 1666
+Radiation: 70
+PvP: True
+UseFixed: True
+UseRandom: True
+AllowBA: False
+AllowCV: True
+AllowSV: True
+AllowHV: True
+AllowBlueprintBA: False
+AllowBlueprintCV: True
+AllowBlueprintSV: True
+AllowBlueprintHV: True
+POIs:
+   Fixed:
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-2757, -380, -3414]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Zascosium
+      Prefab: AsteroidVoxel03Zascosium
+      Name: Zascosium Asteroid
+      Pos: [249, -1383, -584]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-427, -1058, 768]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Zascosium
+      Prefab: AsteroidVoxel01Zascosium
+      Name: Zascosium Asteroid
+      Pos: [1234, -341, -3795]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Zascosium
+      Prefab: AsteroidVoxel01Zascosium
+      Name: Zascosium Asteroid
+      Pos: [-3224, -134, -2262]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Cobalt
+      Prefab: AsteroidVoxel02Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-4300, -3159, -4108]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [3217, -72, -2]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Neodymium
+      Prefab: AsteroidVoxel02Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-1111, -111, -1111]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [300, -1159, -1357]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-1237, -1237, -321]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-182, -1700, -521]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Erestrum
+      Prefab: AsteroidVoxel03Erestrum
+      Name: Erestrum Asteroid
+      Pos: [1234, -70, -123]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Zascosium
+      Prefab: AsteroidVoxel01Zascosium
+      Name: Zascosium Asteroid
+      Pos: [1234, -541, -5795]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Pentaxid
+      Prefab: AsteroidVoxel02Pentaxid
+      Name: Pentaxid Asteroid
+      Pos: [-3010, -1329, -708]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Zascosium
+      Prefab: AsteroidVoxel02Zascosium
+      Name: Zascosium Asteroid
+      Pos: [300, -2059, -2808]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Cobalt
+      Prefab: AsteroidVoxel03Cobalt
+      Name: Cobalt Asteroid
+      Pos: [3230, -180, -5123]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [5417, -172, -2122]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Neodymium
+      Prefab: AsteroidVoxel03Neodymium
+      Name: Neodymium Asteroid
+      Pos: [5413, -1534, -1861]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [6177, -2077, -321]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Magnesium
+      Prefab: AsteroidVoxel01Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-1717, -1017, 457]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Magnesium
+      Prefab: AsteroidVoxel02Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-1237, -1700, -321]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos: [-182, -1700, -2521]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Copper
+      Prefab: AsteroidVoxel01Copper
+      Name: Copper Asteroid
+      Pos: [-6302, -73, -2486]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Magnesium
+      Prefab: AsteroidVoxel02Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-6038, -225, 2595]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Magnesium
+      Prefab: AsteroidVoxel03Magnesium
+      Name: Magnesium Asteroid
+      Pos: [4270, -1, 2671]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos: [318, -51, 6607]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Promethium
+      Prefab: AsteroidVoxel03Promethium
+      Name: Promethium Asteroid
+      Pos: [-3095, -43, -4949.8]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Promethium
+      Prefab: AsteroidVoxel01Promethium
+      Name: Promethium Asteroid
+      Pos: [-4244, -7, 4047]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Promethium
+      Prefab: AsteroidVoxel02Promethium
+      Name: Promethium Asteroid
+      Pos: [-838, -64, -5615]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Copper
+      Prefab: AsteroidVoxel03Copper
+      Name: Copper Asteroid
+      Pos: [1139, -76, -5911]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Copper
+      Prefab: AsteroidVoxel01Copper
+      Name: Copper Asteroid
+      Pos: [2751, -106, -4831]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Copper
+      Prefab: AsteroidVoxel02Copper
+      Name: Copper Asteroid
+      Pos: [4695, -284, -3501]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [5821, -343, -2041]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Silicon
+      Prefab: AsteroidVoxel01Silicon
+      Name: Silicon Asteroid
+      Pos: [5972, -214, -359]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Silicon
+      Prefab: AsteroidVoxel02Silicon
+      Name: Silicon Asteroid
+      Pos: [5992, -349, 1765]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Silicon
+      Prefab: AsteroidVoxel03Silicon
+      Name: Silicon Asteroid
+      Pos: [-3173, -99, 5412]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Zascosium
+      Prefab: AsteroidVoxel01Zascosium
+      Name: Zascosium Asteroid
+      Pos: [-4621, -110, -3697]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Neodymium
+      Prefab: AsteroidVoxel02Neodymium
+      Name: Neodymium Asteroid
+      Pos: [-6099, -130, 94]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Neodymium
+      Prefab: AsteroidVoxel03Neodymium
+      Name: Neodymium Asteroid
+      Pos: [2895, -174, 5291]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos: [3623, -100, -2119]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Magnesium
+      Prefab: AsteroidVoxel02Magnesium
+      Name: Magnesium Asteroid
+      Pos: [3744, -200, -3914]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Erestrum
+      Prefab: AsteroidVoxel03Erestrum
+      Name: Erestrum Asteroid
+      Pos: [2926, -200, -1018]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos: [2698, -300, 2403]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-234, -108, 1253]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+   -  Type: AsteroidVoxel02Erestrum
+      Prefab: AsteroidVoxel02Erestrum
+      Name: Erestrum Asteroid
+      Pos: [2812, -300, -1156]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [2064, 0, -1635]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [345, 0, -612]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [1253, 0, -175]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [2699, 0, -125]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [2981, 0, -3543]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Zascosium
+      Prefab: AsteroidVoxel02Zascosium
+      Name: Zascosium Asteroid
+      Pos: [1757, 0, -1942]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Zascosium
+      Prefab: AsteroidVoxel03Zascosium
+      Name: Zascosium Asteroid
+      Pos: [300, -100, -297]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos: [-1442, -401, -165]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Erestrum
+      Prefab: AsteroidVoxel03Erestrum
+      Name: Erestrum Asteroid
+      Pos: [-2972, 221, 349]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Magnesium
+      Prefab: AsteroidVoxel01Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-1074, -141, 183]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Cobalt
+      Prefab: AsteroidVoxel02Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-2003, -41, 1031]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Cobalt
+      Prefab: AsteroidVoxel03Cobalt
+      Name: Cobalt Asteroid
+      Pos: [-2449, -79, 1665]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Sathium
+      Prefab: AsteroidVoxel01Sathium
+      Name: Sathium Asteroid
+      Pos: [-632, -148, 5779]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [1754, -13, 5835]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [3865, -222, 4237]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Zascosium
+      Prefab: AsteroidVoxel01Zascosium
+      Name: Zascosium Asteroid
+      Pos: [5356, -81, 2385]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Iron
+      Prefab: AsteroidVoxel02Iron
+      Name: Iron Asteroid
+      Pos: [5748, -19, -1044]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Iron
+      Prefab: AsteroidVoxel03Iron
+      Name: Iron Asteroid
+      Pos: [4809, -249, -2362]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Iron
+      Prefab: AsteroidVoxel01Iron
+      Name: Iron Asteroid
+      Pos: [3534, -130, -4471]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [2244, -9, -5446]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Sathium
+      Prefab: AsteroidVoxel03Sathium
+      Name: Sathium Asteroid
+      Pos: [150, -9, -6125]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Sathium
+      Prefab: AsteroidVoxel02Sathium
+      Name: Sathium Asteroid
+      Pos: [-3744, -89, -4575]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidFieldRingOld
+      Name: Asteroid Field
+      Pos: [0, 0, 0]
+      Rot: [10, 0, 0]
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos: [7.31, 44.65, 2746.704]
+      Rot: [0, 75, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos: [-302.735, 44.65, 2968.649]
+      Rot: [0, 75, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos: [257.371, 44.65, 2977.729]
+      Rot: [0, 75, 0]
+      Faction: Alien
+      InitPower: True
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: BA_Alien
+      Prefab: BAO_SpireSatellite
+      Mode: Survival
+      Name: Alien Satellite
+      Pos: [1.855, 274.95, 2939.641]
+      Rot: [0, 75, 0]
+      Faction: Alien
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [7777, 1111, 7777]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-7777, 1111, -7777]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [7777, 1111, -7777]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-7777, 1111, 7777]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Magnesium
+      Prefab: AsteroidVoxel03Magnesium
+      Name: Magnesium Asteroid
+      Pos: [3131, 123, 511]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Magnesium
+      Prefab: AsteroidVoxel03Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-3131, 123, 1511]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Magnesium
+      Prefab: AsteroidVoxel03Magnesium
+      Name: Magnesium Asteroid
+      Pos: [1331, 1, 1111]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1760.586, -190, -3183.495]
+      Rot: [-11, -15, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-495.943, 130, -3296.565]
+      Rot: [-2, 38, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-2218.596, 50, -1296.366]
+      Rot: [-8, 67, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-2447.889, -630, 945.915]
+      Rot: [47, 86, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [923.483, -2179.85, 3088.353]
+      Rot: [-5, -46, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-7559.278, 30.05, 435.772]
+      Rot: [-14, -271, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-4642.797, 10.1, -1881.598]
+      Rot: [-12, -249, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-5766.679, -9.85, -3902.197]
+      Rot: [-12, -249, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [1791.527, -49.75, 3729.618]
+      Rot: [-18, -177, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-154.931, 40.35, 2635.696]
+      Rot: [-7, 153, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [3408.338, 392.35, 148.989]
+      Rot: [-22, 263, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [1206.862, -17.65, 7.89]
+      Rot: [-3, 28, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-389.64, 136.75, 2251]
+      Rot: [-15, -84, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [-1687.143, 113.15, 27]
+      Rot: [14, -29, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-950.699, 81.55, 1292]
+      Rot: [-3, 104, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-784.393, 245.45, 370.114]
+      Rot: [-16, 180, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-725.165, 209.55, 194.392]
+      Rot: [-6, 241, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-1471.489, 1039.55, 2755.277]
+      Rot: [0, 168, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [923.483, 2179.85, 3088.353]
+      Rot: [-16, 180, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-4911.708, 19.6, 1704.284]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Magnesium
+      Prefab: AsteroidVoxel02Magnesium
+      Name: Magnesium Asteroid
+      Pos: [-2156.759, -33.2, 6187.734]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Erestrum
+      Prefab: AsteroidVoxel01Erestrum
+      Name: Erestrum Asteroid
+      Pos: [6.191, -210.95, -4605.377]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [-4520.787, -366.95, 4902.357]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel02Gold
+      Prefab: AsteroidVoxel02Gold
+      Name: Gold Asteroid
+      Pos: [1549.479, -115.95, -6651.494]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel01Gold
+      Prefab: AsteroidVoxel01Gold
+      Name: Gold Asteroid
+      Pos: [-1836.126, -325.05, 4509.53]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Gold Asteroid
+      Pos: [6581.011, 351.05, 1014.407]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidVoxel03Gold
+      Prefab: AsteroidVoxel03Gold
+      Name: Golden Globe Asteroid
+      Pos: [0, 0, 3000]
+      Rot: [0, 0, 0]
+      Properties:
+      -  Key: RegenAfter
+         Value: 180
+      -  Key: HudDistance
+         Value: 1500
+   -  Type: AsteroidFieldBoxExclude
+      Name: Asteroid Field
+      Pos: [0, 0, 0]
+      Rot: [0, 0, 0]
+DroneBaseSetup: {}

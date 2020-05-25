@@ -1,0 +1,46 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Created by EPD v1.92.9.2540, Playfield Version: 11.5.0 [2744] (Alpha 11.5.0)
+# --------------------------------------------------------------------------------------------------------------------------
+#
+TemperatureDay: -170
+PlayfieldLevel: 5
+Music: StellarGrasp
+Description: Your job is to infiltrate that Freighter, steal all the Ores with a Drill to not detect any Cargo Box Security System and return to the Trader.
+PlanetType: Space
+PlayfieldType: Space
+AtmosphereEnabled: False
+Difficulty: 5
+SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
+Stars: SkyboxStarsPurple
+Nebula: PrefabNebulaBluePinkPurple
+Build: 1642
+Radiation: 13
+PvP: False
+UseFixed: True
+AllowBA: False
+AllowCV: False
+AllowSV: False
+AllowHV: False
+AllowBlueprintBA: False
+AllowBlueprintCV: False
+AllowBlueprintSV: False
+AllowBlueprintHV: False
+Instance:
+   Time: 30
+   MaxPlayers: 1
+   PortalOpen: 5
+   Cooldown: 3600
+   LockOnFaction: True
+POIs:
+   Fixed:
+   -  Type: BA_Alien
+      Prefab: IvDII M Sat Freighter
+      Mode: Survival
+      Name: Sathium Freighter Mission
+      Pos: [0, 0, 0]
+      Rot: [0, 0, 0]
+      Faction: Alien
+      Properties:
+      -  Key: Music
+         Value: DistantWorlds
+DroneBaseSetup: {}
